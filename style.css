@@ -1,0 +1,31 @@
+.mainimage{
+  height:300px;
+}
+
+main{
+  background-color:lightblue;
+  font-family:sans-serif;
+  
+}
+
+body{
+  background-image: url("frog.jpg");
+  background-size:cover;
+}
+
+#wrapper{
+  width:60%;
+  margin:auto;
+  margin-top:30px;
+}
+
+ul{
+  list-style-image: url("tinytrump.ico");
+}
+
+.specialborder {
+  border:10px solid transparent;
+  padding:15px;
+  
+  border-image: url("tile.jpg") 30% round ;
+}
